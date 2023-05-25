@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  api:
+    image: audio-player-api
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - ./api/database/db.json:/audio-player/api/database/db.json
+    
