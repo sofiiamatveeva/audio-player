@@ -7,5 +7,18 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./api/database/db.json:/audio-player/api/database/db.json
+      - ./api:/audio-player/api
+      - ./package.json:/audio-player/package.json
+  
+  site:
+    image: audio-player-site
+    restart: always
+    depends_on:
+      - api
+    ports:
+      - 4200:4200
+    volumes:
+      - ./src:/audio-player/src/
+      - ./webpack.config.js:/audio-player/webpack.config.js
+      - ./package.json:/audio-player/package.json
     
