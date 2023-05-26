@@ -2,10 +2,10 @@ FROM node:18
 
 WORKDIR /audio-player
 
-COPY ./package.json /audio-player
-COPY ./package-lock.json /audio-player
-COPY . /audio-player/api
+COPY ./package.json /audio-player/
+RUN npm install
 
-RUN cd /audio-player && npm install
+COPY ./api /audio-player/api
+
 EXPOSE 3000
-CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "run", "api" ]
