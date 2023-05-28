@@ -1,22 +1,198 @@
 {
-  "feedback": [
+  "songs": [
     {
-      "id": 22222,
-      "rating": 9,
-      "user_name": "Bruce Wayne1111",
-      "text": "You are the batman of this world"
+      "id": "03d8495d8d8747cd821cefe99d9615c6",
+      "name": "Падать в грязь",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "artist_name": "Монеточка",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b3",
+      "album_name": "Падать в грязь",
+      "genres": ["Russian Indie"],
+      "year": 2019,
+      "duration": 148,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00f/03d8495d8d8747cd821cefe99d9615c6.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b3.jpg"
     },
     {
-      "rating": 8,
-      "user_name": "Peter Parker",
-      "text": "You are the spiderman of this world",
-      "id": 22223
+      "id": "03d8495d8d8747cd821cefe99d9615c7",
+      "name": "Русский ковчег",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "artist_name": "Монеточка",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b4",
+      "album_name": "Раскраски для взрослых",
+      "genres": ["Russian Indie"],
+      "year": 2018,
+      "duration": 199,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00f/03d8495d8d8747cd821cefe99d9615c7.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b4.jpg"
     },
     {
-      "rating": 8,
-      "user_name": "Peter Parker",
-      "text": "11111111",
-      "id": 22224
+      "id": "03d8495d8d8747cd821cefe99d9615c8",
+      "name": "Каждый раз",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "artist_name": "Монеточка",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b4",
+      "album_name": "Раскраски для взрослых",
+      "genres": ["Russian Indie"],
+      "year": 2018,
+      "duration": 199,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00f/03d8495d8d8747cd821cefe99d9615c8.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b4.jpg"
+    },
+    {
+      "id": "03d8495d8d8747cd821cefe99d9615c9",
+      "name": "Гори, гори, гори",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "artist_name": "Монеточка",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b5",
+      "album_name": "Гори, гори, гори",
+      "genres": ["Russian Indie"],
+      "year": 2019,
+      "duration": 141,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00f/03d8495d8d8747cd821cefe99d9615c9.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b5.jpg"
+    },
+    {
+      "id": "03d8495d8d8747cd821cefe99d9615d1",
+      "name": "Nico and the Niners",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00g",
+      "artist_name": "twenty one pilots",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b5",
+      "album_name": "Trench",
+      "genres": ["Alternative Rock"],
+      "year": 2018,
+      "duration": 207,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00g/03d8495d8d8747cd821cefe99d9615d1.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00g/albums/f48a0f3c5844407295a0162a93f1e3b6.jpg"
+    },
+    {
+      "id": "03d8495d8d8747cd821cefe99d9615d2",
+      "name": "Jumpsuit",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00g",
+      "artist_name": "twenty one pilots",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b5",
+      "album_name": "Trench",
+      "genres": ["Alternative Rock"],
+      "year": 2018,
+      "duration": 214,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00g/03d8495d8d8747cd821cefe99d9615d2.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00g/albums/f48a0f3c5844407295a0162a93f1e3b6.jpg"
+    },
+    {
+      "id": "03d8495d8d8747cd821cefe99d9615d3",
+      "name": "Down by the River",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00h",
+      "artist_name": "Milky Chance",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b7",
+      "album_name": "Sadnecessary",
+      "genres": ["Folktronica"],
+      "year": 2014,
+      "duration": 240,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00h/03d8495d8d8747cd821cefe99d9615d3.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00h/albums/f48a0f3c5844407295a0162a93f1e3b7.jpg"
+    },
+    {
+      "id": "03d8495d8d8747cd821cefe99d9615d4",
+      "name": "Stolen Dance",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00h",
+      "artist_name": "Milky Chance",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b7",
+      "album_name": "Sadnecessary",
+      "genres": ["Indie Pop", "Folktronica"],
+      "year": 2013,
+      "duration": 307,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00h/03d8495d8d8747cd821cefe99d9615d4.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00h/albums/f48a0f3c5844407295a0162a93f1e3b7.jpg"
+    },
+    {
+      "id": "03d8495d8d8747cd821cefe99d9615d5",
+      "name": "Fairytale",
+      "artist_id": "762c269b52bf4475bf07f522dc50d00h",
+      "artist_name": "Milky Chance",
+      "album_id": "f48a0f3c5844407295a0162a93f1e3b7",
+      "album_name": "Sadnecessary",
+      "genres": ["Punk Rock", "Folk"],
+      "year": 2013,
+      "duration": 249,
+      "song_src": "/assets/audio/762c269b52bf4475bf07f522dc50d00h/03d8495d8d8747cd821cefe99d9615d5.mp3",
+      "song_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00h/albums/f48a0f3c5844407295a0162a93f1e3b7.jpg"
     }
-  ]
+  ],
+  "artists": [
+    {
+      "id": "762c269b52bf4475bf07f522dc50d00f",
+      "name": "Монеточка",
+      "description": "Монеточка — российская певица, автор песен и музыкант.",
+      "followers": 15,
+      "genres": ["Russian Indie"],
+      "artist_avatar": "/assets/img/762c269b52bf4475bf07f522dc50d00f/artist/avatar.jpg",
+      "artist_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/artist/cover.jpg"
+    },
+    {
+      "id": "762c269b52bf4475bf07f522dc50d00g",
+      "name": "twenty one pilots",
+      "description": "Twenty One Pilots is an American musical duo from Columbus, Ohio. Initially a band, the group was formed in 2009 by lead vocalist Tyler Joseph along with Nick Thomas and Chris Salih, who both left in 2011.",
+      "followers": 1900,
+      "genres": ["Hip Hop", "Alternative Rock", "Pop Rock", "Electropop"],
+      "artist_avatar": "/assets/img/762c269b52bf4475bf07f522dc50d00g/artist/avatar.jpg",
+      "artist_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00g/artist/cover.jpg"
+    },
+    {
+      "id": "762c269b52bf4475bf07f522dc50d00h",
+      "name": "Milky Chance",
+      "description": "Milky Chance is a German rock band originating in Kassel. It consists of vocalist and guitarist Clemens Rehbein, bassist and percussionist Philipp Dausch, and their band members, Antonio Greger and Sebastian Schmidt.",
+      "followers": 977,
+      "genres": ["Electronic", "Alternative Rock", "Reggae", "Folk", "Indie", "Punk Rock"],
+      "artist_avatar": "/assets/img/762c269b52bf4475bf07f522dc50d00h/artist/avatar.jpg",
+      "artist_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00h/artist/cover.jpg"
+    }
+  ],
+  "albums": [
+    {
+      "id": "f48a0f3c5844407295a0162a93f1e3b3",
+      "name": "Падать в грязь",
+      "description": "Сингл российской певицы Монеточки",
+      "year": 2019,
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "genres": ["Russian Indie"],
+      "album_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b3.jpg"
+    },
+    {
+      "id": "f48a0f3c5844407295a0162a93f1e3b4",
+      "name": "Раскраски для взрослых",
+      "description": "Первый студийный альбом российской певицы Монеточки, выпущенный 25 мая 2018 года. В «Раскрасках» Монеточка отходит от простых фортепианных песен, записанных дома, в сторону более коммерческих поп-аранжировок с влиянием поп-музыки 1990-х и танцевальной музыки, которые написал Витя Исаев.",
+      "year": 2018,
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "genres": ["Russian Indie"],
+      "album_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b4.jpg"
+    },
+    {
+      "id": "f48a0f3c5844407295a0162a93f1e3b5",
+      "name": "Гори, гори, гори",
+      "description": "",
+      "year": 2019,
+      "artist_id": "762c269b52bf4475bf07f522dc50d00f",
+      "genres": ["Russian Indie"],
+      "album_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00f/albums/f48a0f3c5844407295a0162a93f1e3b5.jpg"
+    },
+    {
+      "id": "f48a0f3c5844407295a0162a93f1e3b6",
+      "name": "Trench",
+      "description": "Trench is the fifth studio album by American musical duo Twenty One Pilots. It was released on October 5, 2018 through Fueled by Ramen.",
+      "year": 2018,
+      "artist_id": "762c269b52bf4475bf07f522dc50d00g",
+      "genres": ["Hip Hop", "Alternative Rock", "Pop Rock", "Electropop"],
+      "album_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00g/albums/f48a0f3c5844407295a0162a93f1e3b6.jpg"
+    },
+    {
+      "id": "f48a0f3c5844407295a0162a93f1e3b7",
+      "name": "Sadnecessary",
+      "description": "Sadnecessary is the debut studio album by German duo Milky Chance. It was released in Germany on 1 October 2013. The album includes the singles \"Stolen Dance\" and \"Down by the River\". The album peaked at number 14 in Germany, and charted at 17 on the Billboard 200 chart.",
+      "year": 2013,
+      "artist_id": "762c269b52bf4475bf07f522dc50d00h",
+      "genres": ["Hip Hop", "Alternative Rock", "Pop Rock", "Electropop", "Folktronica"],
+      "album_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00h/albums/f48a0f3c5844407295a0162a93f1e3b7.jpg"
+    }
+  ],
+  "genres": ["Russian Indie", "Hip Hop", "Rock", "Alternative Rock", "Indie Pop", "Pop Rock", "Electropop", "Indie", "Electronic", "Folk", "Folktronica", "Punk Rock"]
 }
