@@ -1,0 +1,19 @@
+@mixin flex($direction: column, $justify: flex-start, $align: flex-start) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+@mixin icon($size) {
+	display: block;
+	width: $size;
+	height: $size;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&:hover > svg {
+		cursor: pointer;
+		fill: $main-accent-color !important;
+	}
+}

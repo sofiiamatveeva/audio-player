@@ -30,6 +30,7 @@ module.exports = {
 						options: {
 							resources: [
 								'./src/styles/vars.scss',
+								'./src/styles/mixins.scss'
 							],
 						},
 					},
