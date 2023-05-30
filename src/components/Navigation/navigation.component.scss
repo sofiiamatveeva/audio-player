@@ -1,0 +1,25 @@
+.nav {
+	&-panel {
+		width: 100px;
+		height: 100%;
+		padding-top: 85px;
+		background-color: $back-color;
+	}
+
+	&-list {
+		@include flex(column, flex-start, center);
+		gap: $big-margin;
+	}
+
+	&-item {
+		width: fit-content;
+
+		input:checked ~ label > svg {
+			fill: $main-accent-color;
+		}
+	}
+}
+
+.icon {
+	@include icon(30px);
+}
