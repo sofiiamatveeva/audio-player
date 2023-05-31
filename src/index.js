@@ -1,5 +1,5 @@
 import './index.scss';
-import HeaderComponent from './components/Header/header.component';
+import PlaylistComponent from './components/Playlist/playlist.component';
 
 const ROOT = document.getElementById('root');
-ROOT.append(HeaderComponent);
+ROOT.append(PlaylistComponent);
