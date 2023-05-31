@@ -1,11 +1,53 @@
-button {
-	background: none;
-	border: none;
-}
-.control-panel {
-	@include flex(row);
-	gap: 5px;
-	.icon {
-		@include icon(26px);
+.song-widget {
+	@include flex(row, space-between, center);
+	gap: $s-margin;
+	width: 400px;
+	padding-right: $nano-margin;
+	margin: $s-margin;
+	color: $white;
+
+	&__info {
+		@include flex();
+		gap: 2px;
+	}
+
+	.info {
+		&__name {
+			font-size: $r-font;
+		}
+
+		&__album {
+			margin-bottom: $s-margin;
+			font-size: $m-font;
+			color: $gray;
+		}
+
+		&__artist {
+			font-size: $s-font;
+			color: $gray;
+		}
+	}
+
+	&__time {
+		margin-left: auto;
+		font-size: $s-font;
+	}
+
+	button {
+		@include flex(row, center, center);
+		background: none;
+		border: none;
+	}
+
+	button img {
+		border-radius: $s-margin;
+	}
+
+	.control-panel {
+		@include flex(row);
+		gap: $s-margin;
+		.icon {
+			@include icon(24px);
+		}
 	}
 }
