@@ -1,4 +1,4 @@
-import { GET_ALL_SONGS } from "../constants/apiConstants";
+import { GET_ALL_SONGS, IMAGES_URL } from "../constants/apiConstants";
 
 export class ApiService {
 	static async getAllSongs() {
@@ -11,5 +11,9 @@ export class ApiService {
 			console.error(error);
 			throw error;
 		}
+	}
+
+	static getImage(target) {
+		return IMAGES_URL + target;
 	}
 }
