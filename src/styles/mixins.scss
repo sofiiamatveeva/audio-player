@@ -16,4 +16,8 @@
 		cursor: pointer;
 		fill: $main-accent-color !important;
 	}
+
+	&:hover g {
+		stroke: $main-accent-color !important;
+	}
 }

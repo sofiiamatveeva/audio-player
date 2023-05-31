@@ -1,0 +1,11 @@
+button {
+	background: none;
+	border: none;
+}
+.control-panel {
+	@include flex(row);
+	gap: 5px;
+	.icon {
+		@include icon(26px);
+	}
+}
