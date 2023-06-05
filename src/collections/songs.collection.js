@@ -1,6 +1,6 @@
-import { Song } from "../models/Song";
+import Song from '../models/Song';
 
-export class SongsCollection {
+export default class SongsCollection {
 	constructor(ApiService) {
 		this.apiService = ApiService;
 		this.songsPromise = null;
@@ -14,17 +14,15 @@ export class SongsCollection {
 			}
 
 			return this.songsPromise;
-		} catch(error) {
+		} catch (error) {
 			console.error(error);
 			throw error;
 		}
 	}
 
 	saveSongsLibrary(songs) {
-		songs = songs.map(song => {
-			return new Song(this.apiService, song);
-		});
+		const library = songs.map((song) => new Song(this.apiService, song));
 
-		this.library = songs;
+		this.library = library;
 	}
 }

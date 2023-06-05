@@ -1,4 +1,4 @@
-export class Song {
+export default class Song {
 	constructor(ApiService, ...songProps) {
 		this.apiService = ApiService;
 		Object.assign(this, ...songProps);
@@ -23,7 +23,7 @@ export class Song {
 
 		if (this.duration >= HOUR_BASE) {
 			hours = Math.floor(this.duration / HOUR_BASE);
-			this.duration = this.duration - hours * HOUR_BASE;
+			this.duration -= hours * HOUR_BASE;
 		}
 
 		if (this.duration >= MIN_BASE) {
@@ -32,12 +32,12 @@ export class Song {
 		}
 
 		if (hours) {
-			handledTime = hours.toString().padStart(2, '0') + ':';
+			handledTime = `${hours.toString().padStart(2, '0')}:`;
 		}
-		
+
 		handledTime += minutes.toString().padStart(2, '0');
-		handledTime += ':' + secs.toString().padStart(2, '0');
+		handledTime += `:${secs.toString().padStart(2, '0')}`;
 
 		return handledTime;
 	}
-};
+}
