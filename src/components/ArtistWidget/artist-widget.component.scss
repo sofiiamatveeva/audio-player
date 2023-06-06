@@ -1,0 +1,44 @@
+.artist-widget {
+	@include flex(row);
+	gap: $m-margin;
+	width: 100%;
+	height: $artist-widget-height;
+	margin: $s-margin 0;
+
+	&__info {
+		@include flex;
+		height: 100%;
+		padding: $s-margin 0;
+	}
+
+	&__avatar img {
+		border-radius: $m-margin;
+	}
+
+	&__name {
+		margin-bottom: $nano-margin;
+		font-size: $l-font;
+		color: $white;
+	}
+
+	&__genres,
+	&__followers {
+		color: $gray;
+	}
+
+	&__genres {
+		font-size: $m-font;
+	}
+
+	&__followers {
+		margin-top: auto;
+		font-size: $r-font;
+	}
+
+	.icon {
+		@include icon(36px);
+		@include clear-button;
+		align-self: center;
+		margin-left: auto;
+	}
+}
