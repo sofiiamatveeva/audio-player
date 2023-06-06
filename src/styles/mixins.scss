@@ -21,3 +21,9 @@
 		stroke: $main-accent-color !important;
 	}
 }
+
+@mixin clear-button {
+	@include flex(row, center, center);
+	background: none;
+	border: none;
+}

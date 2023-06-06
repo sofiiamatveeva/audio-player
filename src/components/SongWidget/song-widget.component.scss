@@ -1,7 +1,9 @@
 .song-widget {
-	@include flex(row, space-between, center);
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
 	gap: $s-margin;
-	width: 400px;
+	width: calc(50% - $s-margin * 2);
 	padding-right: $nano-margin;
 	margin: $s-margin;
 	color: $white;
@@ -34,9 +36,7 @@
 	}
 
 	button {
-		@include flex(row, center, center);
-		background: none;
-		border: none;
+		@include clear-button;
 	}
 
 	button img {
