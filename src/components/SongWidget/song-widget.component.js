@@ -16,10 +16,9 @@ const SongWidgetComponent = (song) => {
 	SONG_ARTIST.innerHTML = song.artist_name;
 	SONG_TIME.innerHTML = song.getDurationInMinutes();
 
-	let songAvatar = new Image(60, 60);
+	const songAvatar = new Image(60, 60);
 	songAvatar.src = song.getSongAvatar();
 	SONG_AVATAR.append(songAvatar);
-	
 
 	return SONG_WIDGET_ELEMENT;
 };
