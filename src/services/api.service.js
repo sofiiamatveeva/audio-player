@@ -1,4 +1,4 @@
-import { GET_ALL_SONGS, GET_ALL_ARTISTS, IMAGES_URL } from '../constants/apiConstants';
+import { GET_ALL_SONGS, GET_ALL_ARTISTS, IMAGES_URL, GET_ALL_GENRES } from '../constants/apiConstants';
 
 export default class ApiService {
 	static async getAllSongs() {
@@ -27,5 +27,17 @@ export default class ApiService {
 
 	static getImage(target) {
 		return IMAGES_URL + target;
+	}
+
+	static async getAllGenres() {
+		try {
+			const response = await fetch(GET_ALL_GENRES);
+			const genres = await response.json();
+
+			return genres;
+		} catch (error) {
+			console.error(error);
+			throw error;
+		}
 	}
 }
