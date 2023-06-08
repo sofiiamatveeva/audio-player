@@ -21,4 +21,9 @@
 	#artists-list {
 		grid-area: artist;
 	}
+
+	#genres-list {
+		@include flex(row);
+		grid-area: genre;
+	}
 }
