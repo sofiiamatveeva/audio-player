@@ -1,7 +1,7 @@
-import GenresCollection from "../../collections/genres.collection"
-import ApiService from "../../services/api.service"
-import convertToHtml from "../../utils/htmlElement";
-import GenreWidgetComponent from "../GenreWidget/genre-widget.component";
+import GenresCollection from '../../collections/genres.collection';
+import ApiService from '../../services/api.service';
+import convertToHtml from '../../utils/htmlElement';
+import GenreWidgetComponent from '../GenreWidget/genre-widget.component';
 import GenresListTemplate from './genres-list.component.html';
 
 const GenresListComponent = convertToHtml(GenresListTemplate);
@@ -13,7 +13,7 @@ genresCollection.getAllGenres().then((genresLibrary) => {
 	genresCollection.genresLibrary.forEach((genre) => {
 		const GENRE_ELEMENT = GenreWidgetComponent(genre);
 
-		console.log(GenresListComponent)
+		console.log(GenresListComponent);
 		GenresListComponent.appendChild(GENRE_ELEMENT);
 	});
 });

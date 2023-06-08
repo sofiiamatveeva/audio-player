@@ -9,11 +9,10 @@ export default class Artist {
 		const MILLION = 1000000;
 
 		if (this.followers > THOUSAND && this.followers < MILLION) {
-			return Math.floor(this.followers / THOUSAND) + 'K';
-		} else if (this.followers > MILLION) {
-			return Math.floor(this.followers / MILLION) + 'M';
-		} else {
-			return this.followers;
+			return `${Math.floor(this.followers / THOUSAND)}K`;
+		} if (this.followers > MILLION) {
+			return `${Math.floor(this.followers / MILLION)}M`;
 		}
+		return this.followers;
 	}
 }

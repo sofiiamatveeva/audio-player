@@ -1,4 +1,4 @@
-import Genre from "../models/Genre";
+import Genre from '../models/Genre';
 
 export default class GenresCollection {
 	constructor(ApiService) {
@@ -14,7 +14,7 @@ export default class GenresCollection {
 			}
 
 			return this.genresPromise;
-		} catch(error) {
+		} catch (error) {
 			console.error(error);
 			throw error;
 		}

@@ -1,4 +1,6 @@
-import { GET_ALL_SONGS, GET_ALL_ARTISTS, IMAGES_URL, GET_ALL_GENRES } from '../constants/apiConstants';
+import {
+	GET_ALL_SONGS, GET_ALL_ARTISTS, IMAGES_URL, GET_ALL_GENRES,
+} from '../constants/apiConstants';
 
 export default class ApiService {
 	static async getAllSongs() {
