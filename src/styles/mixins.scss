@@ -5,15 +5,24 @@
 	align-items: $align;
 }
 
-@mixin icon($size) {
+@mixin icon($width, $height: $width) {
 	display: block;
-	width: $size;
-	height: $size;
+	width: $width;
+	height: $height;
 	background-position: center;
 	background-repeat: no-repeat;
+	transition: 0.3s;
+	
+	& svg,
+	& g {
+		transition: 0.1s;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
 
 	&:hover > svg {
-		cursor: pointer;
 		fill: $main-accent-color !important;
 	}
 

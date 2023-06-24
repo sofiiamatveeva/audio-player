@@ -2,16 +2,16 @@
 	display: grid;
 	grid-template-rows: repeat(8, auto);
 	grid-template-columns: repeat(8, 1fr);
-	grid-template-areas: 
-	"fav fav fav fav fav artist artist artist"
-	"fav fav fav fav fav artist artist artist"
-	"fav fav fav fav fav artist artist artist"
-	"fav fav fav fav fav artist artist artist"
-	"genre genre genre genre genre player player player"
-	"genre genre genre genre genre player player player"
-	"playlist playlist playlist playlist playlist player player player"
-	"playlist playlist playlist playlist playlist player player player"
-	"playlist playlist playlist playlist playlist player player player";
+	grid-template-areas:
+		"fav fav fav fav fav artist artist artist"
+		"fav fav fav fav fav artist artist artist"
+		"fav fav fav fav fav artist artist artist"
+		"fav fav fav fav fav artist artist artist"
+		"genres genres genres genres genres player player player"
+		"genres genres genres genres genres player player player"
+		"playlist playlist playlist playlist playlist player player player"
+		"playlist playlist playlist playlist playlist player player player"
+		"playlist playlist playlist playlist playlist player player player";
 	gap: 20px;
 
 	#playlist {
@@ -22,8 +22,7 @@
 		grid-area: artist;
 	}
 
-	#genres-list {
-		@include flex(row);
-		grid-area: genre;
+	.genres-wrapper {
+		grid-area: genres;
 	}
 }
