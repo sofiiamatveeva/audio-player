@@ -194,5 +194,54 @@
       "album_cover": "/assets/img/762c269b52bf4475bf07f522dc50d00h/albums/f48a0f3c5844407295a0162a93f1e3b7.jpg"
     }
   ],
-  "genres": ["Russian Indie", "Hip Hop", "Rock", "Alternative Rock", "Indie Pop", "Pop Rock", "Electropop", "Indie", "Electronic", "Folk", "Folktronica", "Punk Rock"]
+  "genres": [
+    {
+      "name": "Russian Indie",
+      "background": "linear-gradient(130deg, #FF1F1F 0%, #FFA564 35.42%, rgba(250, 255, 0, 0.92) 78.65%, rgba(189, 255, 0, 0.82) 100%)"
+    }, 
+    {
+      "name": "Hip Hop",
+      "background": "linear-gradient(130deg, #6C83FC 0%, #94FF9E 35.42%, rgba(67, 232, 255, 0.59) 78.65%, rgba(164, 132, 255, 0.6) 100%)"
+    }, 
+    {
+      "name": "Rock",
+      "background": "linear-gradient(130deg, #FAFF00 0%, #A6FF4D 35.42%, rgba(0, 255, 133, 0.78) 78.65%, rgba(0, 240, 255, 0.6) 100%)"
+    }, 
+    { 
+      "name": "Alternative Rock",
+      "background": "linear-gradient(130deg, #FF1F1F 0%, #FFA564 35.42%, rgba(250, 255, 0, 0.92) 78.65%, rgba(189, 255, 0, 0.82) 100%)"
+    }, 
+    {
+      "name": "Indie Pop",
+      "background": "linear-gradient(130deg, #0038FF 0%, #4DFFD4 35.42%, rgba(255, 122, 0, 0.72) 78.65%, rgba(255, 0, 0, 0.71) 100%)"
+    },
+    {
+      "name": "Pop Rock",
+      "background": "linear-gradient(130deg, #FAFF00 0%, #A6FF4D 35.42%, rgba(0, 255, 133, 0.78) 78.65%, rgba(0, 240, 255, 0.6) 100%)"
+    },
+    {
+      "name": "Electropop",
+      "background": "linear-gradient(130deg, #0038FF 0%, #4DFFD4 35.42%, rgba(255, 122, 0, 0.72) 78.65%, rgba(255, 0, 0, 0.71) 100%)"
+    },
+    {
+      "name": "Indie",
+      "background": "linear-gradient(130deg, #FF1F1F 0%, #FFA564 35.42%, rgba(250, 255, 0, 0.92) 78.65%, rgba(189, 255, 0, 0.82) 100%)"
+    },
+    {
+      "name": "Electronic",
+      "background": "linear-gradient(130deg, #6C83FC 0%, #94FF9E 35.42%, rgba(67, 232, 255, 0.59) 78.65%, rgba(164, 132, 255, 0.6) 100%)"
+    },
+    {
+      "name": "Folk",
+      "background": "linear-gradient(130deg, #FAFF00 0%, #A6FF4D 35.42%, rgba(0, 255, 133, 0.78) 78.65%, rgba(0, 240, 255, 0.6) 100%)"
+    },
+    {
+      "name": "Folktronica",
+      "background": "linear-gradient(130deg, #0038FF 0%, #4DFFD4 35.42%, rgba(255, 122, 0, 0.72) 78.65%, rgba(255, 0, 0, 0.71) 100%)"
+    },
+    {
+      "name": "Punk Rock",
+      "background": "linear-gradient(130deg, #FF1F1F 0%, #FFA564 35.42%, rgba(250, 255, 0, 0.92) 78.65%, rgba(189, 255, 0, 0.82) 100%)"
+    }
+  ]
 }

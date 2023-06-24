@@ -13,7 +13,7 @@ const ArtistWidgetComponent = (artistInfo) => {
 
 	ARTIST_NAME.innerHTML = artistInfo.name;
 	ARTIST_GENRES.innerHTML = artistInfo.genres.slice(0, 3).join(' | ');
-	ARTIST_FOLLOWERS.innerHTML = artistInfo.getFollowersCount() + ' followers';
+	ARTIST_FOLLOWERS.innerHTML = `${artistInfo.getFollowersCount()} followers`;
 
 	const artistAvatar = new Image(100, 100);
 	artistAvatar.src = IMAGES_URL + artistInfo.artist_avatar;

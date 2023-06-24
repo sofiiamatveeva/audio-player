@@ -1,4 +1,4 @@
-import Artist from "../models/Artist";
+import Artist from '../models/Artist';
 
 export default class ArtistsCollection {
 	constructor(ApiService) {
@@ -25,4 +25,4 @@ export default class ArtistsCollection {
 
 		this.artistsLibrary = library;
 	}
-};
+}

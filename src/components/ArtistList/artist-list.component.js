@@ -9,10 +9,10 @@ const ArtistListComponent = convertToHtml(ArtistListTemplate);
 
 const artists = new ArtistsCollection(ApiService);
 
-artists.getAllArtists().then(artistsLibrary => {
+artists.getAllArtists().then((artistsLibrary) => {
 	artists.saveArtistsLibrary(artistsLibrary);
 
-	artists.artistsLibrary.forEach(artist => {
+	artists.artistsLibrary.forEach((artist) => {
 		const ARTIST_WIDGET_ELEMENT = ArtistWidgetComponent(artist);
 		ArtistListComponent.appendChild(ARTIST_WIDGET_ELEMENT);
 	});

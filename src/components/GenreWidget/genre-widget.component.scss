@@ -1,0 +1,10 @@
+.genre-item {
+	@include flex(row, center, center);
+	width: 150px;
+	height: 110px;
+	background: linear-gradient(130deg, #FF1F1F 0%, #FFA564 35.42%, rgba(250, 255, 0, 0.92) 78.65%, rgba(189, 255, 0, 0.82) 100%);
+
+	&__name {
+		color: $white;
+	}
+}
