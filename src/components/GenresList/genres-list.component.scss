@@ -1,11 +1,13 @@
 .genres-wrapper {
-	@include flex(row, center);
+	@include flex(row, flex-start);
 	position: relative;
+	overflow-x: hidden;
 
 	#genres-list {
 		@include flex(row);
-		overflow-x: hidden;
+		width: 100%;
 		padding: 0px 35px;
+		transition: 0.5s;
 	}
 
 	.genres-controls {
